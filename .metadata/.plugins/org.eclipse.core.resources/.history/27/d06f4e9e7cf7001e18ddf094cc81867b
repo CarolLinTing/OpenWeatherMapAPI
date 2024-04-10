@@ -1,0 +1,7 @@
+package com.carol.weather_app;
+
+public class Geocoding {
+	private double lat;
+	private double lon;
+
+}

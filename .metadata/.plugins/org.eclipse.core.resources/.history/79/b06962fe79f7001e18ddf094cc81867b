@@ -1,0 +1,32 @@
+package com.carol.weather_app;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+public class WeatherService {
+    private final String apiKey = "c587c657c720e5731e8b7c27eab930cb";
+
+    public String getWeather(String city) {
+        HttpClient client = HttpClient.newHttpClient();
+        String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=" +
+                URLEncoder.encode(city, StandardCharsets.UTF_8) +
+                "&appid=" + apiKey + "&units=metric";
+
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(endpoint))
+                .build();
+
+        try {
+            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            // 此处应有JSON解析逻辑，此例为简化版本
+            WeatherParser w = new WeatherParser(response.body());
+            return response.body();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "Unable to retrieve weather data";
+        }
+    }
+}

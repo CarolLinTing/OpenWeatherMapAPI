@@ -1,0 +1,5 @@
+package com.carol.weather_app;
+
+public class Weather {
+
+}

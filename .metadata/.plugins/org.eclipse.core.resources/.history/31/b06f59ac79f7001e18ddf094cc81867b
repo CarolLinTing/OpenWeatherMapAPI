@@ -1,0 +1,36 @@
+package com.carol.weather_app;
+import org.json.JSONObject;
+
+public class WeatherParser {
+	public String[] JSONDataParser(String json) {
+		// 假设这是从API获取到的JSON字符串
+	    //String jsonData = "{\"coord\":{\"lon\":121.5319,\"lat\":25.0478},\"weather\":[{\"id\":803,\"main\":\"Clouds\",\"description\":\"broken clouds\",\"icon\":\"04n\"}],\"base\":\"stations\",\"main\":{\"temp\":21.99,\"feels_like\":21.84,\"temp_min\":19.07,\"temp_max\":23.93,\"pressure\":1012,\"humidity\":61},\"visibility\":10000,\"wind\":{\"speed\":1.79,\"deg\":140,\"gust\":3.13},\"clouds\":{\"all\":75},\"dt\":1712780451,\"sys\":{\"type\":2,\"id\":266033,\"country\":\"TW\",\"sunrise\":1712784914,\"sunset\":1712830449},\"timezone\":28800,\"id\":1668341,\"name\":\"Taipei\",\"cod\":200}";
+		String jsonData = json;
+		Weather weatherInfo = new Weather();
+		
+	    JSONObject obj = new JSONObject(jsonData);
+	    
+	    // 获取天气数组中的第一个对象
+	    JSONObject weather = obj.getJSONArray("weather").getJSONObject(0);
+	    // 获取天气主要描述
+	    String weatherMain = weather.getString("main");
+	    // 获取天气详细描述
+	    String weatherDescription = weather.getString("description");
+	    
+	    // 获取温度相关信息
+	    JSONObject main = obj.getJSONObject("main");
+	    // 获取当前温度
+	    double temp = main.getDouble("temp");
+	    
+	    // 打印结果
+	    System.out.println("Weather: " + weatherMain + " (" + weatherDescription + ")");
+	    System.out.println("Temperature: " + temp + "°C");
+	    
+	    weatherInfo.setMain(weatherMain);
+	    weatherInfo.setDescription(weatherDescription);
+	    weatherInfo.setTemperature(temp);
+	    
+	    return weatherInfo;
+	}
+
+}
