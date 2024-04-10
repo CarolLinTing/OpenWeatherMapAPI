@@ -37,6 +37,7 @@ public class WeatherService {
         }
     }
 
+
     public String getWeather(String city) {
         double[] coords = getCoordinates(city);
         if (coords == null) {

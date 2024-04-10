@@ -4,13 +4,10 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
-
 
 public class WeatherService {
     private final String apiKey;
@@ -25,15 +22,10 @@ public class WeatherService {
         // Load API key from a configuration file or environment variable
         Properties prop = new Properties();
         try {
-            InputStream inStream = getClass().getClassLoader().getResourceAsStream("config.properties");
-            if (inStream == null) {
-                throw new FileNotFoundException("config.properties file not found in the classpath");
-            }
-            prop.load(inStream);
-            return prop.getProperty("api.key"); // Corrected this line
+            prop.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
+            return prop.getProperty("api.key");
         } catch (IOException e) {
-            e.printStackTrace();
-            return null; // You might want to handle this differently
+            throw new RuntimeException("API key not found in config.properties");
         }
     }
 
@@ -54,7 +46,7 @@ public class WeatherService {
 
         try {
             HttpResponse<String> responseGeo = client.send(requestGeo, HttpResponse.BodyHandlers.ofString());
-            Geocoding geoResult = new GeoParser().JSONGeoParser(responseGeo.body());
+            GeoResult geoResult = new GeoParser().JSONGeoParser(responseGeo.body());
             return new double[]{geoResult.getLat(), geoResult.getLon()};
         } catch (Exception e) {
             e.printStackTrace();

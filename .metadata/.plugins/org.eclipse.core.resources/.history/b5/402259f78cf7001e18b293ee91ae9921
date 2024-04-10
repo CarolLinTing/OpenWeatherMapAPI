@@ -4,13 +4,10 @@ import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.io.InputStream;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
 import java.util.Properties;
-
 
 public class WeatherService {
     private final String apiKey;
@@ -23,18 +20,14 @@ public class WeatherService {
 
     private String loadApiKey() {
         // Load API key from a configuration file or environment variable
-        Properties prop = new Properties();
-        try {
-            InputStream inStream = getClass().getClassLoader().getResourceAsStream("config.properties");
-            if (inStream == null) {
-                throw new FileNotFoundException("config.properties file not found in the classpath");
-            }
-            prop.load(inStream);
-            return prop.getProperty("api.key"); // Corrected this line
-        } catch (IOException e) {
-            e.printStackTrace();
-            return null; // You might want to handle this differently
-        }
+    	Properties prop = new Properties();
+    	try {
+    	    prop.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
+    	    String apiKey = prop.getProperty("api.key");
+    	    return apiKey;
+    	} catch (IOException e) {
+    	    throw new RuntimeException("Failed to load API key from config.properties", e);
+    	}
     }
 
     public String getWeather(String city) {
