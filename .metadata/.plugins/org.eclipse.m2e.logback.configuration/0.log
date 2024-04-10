@@ -557,3 +557,6 @@
 2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
 2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:20:29,539 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-04-10 23:20:37,400 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
