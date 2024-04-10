@@ -33,6 +33,7 @@ public class Weather {
 	public void setTemperature(double temperature) {
 		this.temperature = temperature;
 	}
+	
 
 	@Override
 	public String toString() {

@@ -30,16 +30,21 @@
       <artifactId>json</artifactId>
       <version>20210307</version>
     </dependency>
+
+    <!-- Log4j API dependency -->
+	<dependency>
+	  <groupId>org.slf4j</groupId>
+	  <artifactId>slf4j-api</artifactId>
+	  <version>1.7.32</version>
+	</dependency>
+
   </dependencies>
 
-  <!-- Add this build section to your existing pom.xml -->
   <build>
     <resources>
       <resource>
-        <!-- This defines your project root as an additional resource directory -->
         <directory>${project.basedir}/resources</directory>
       </resource>
-      <!-- This includes the default resource directory as well -->
       <resource>
         <directory>${project.basedir}/src/main/resources</directory>
       </resource>

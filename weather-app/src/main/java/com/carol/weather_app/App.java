@@ -1,5 +1,7 @@
 package com.carol.weather_app;
 import java.util.Scanner;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Simple java maven API program for testing
@@ -7,15 +9,22 @@ import java.util.Scanner;
  */
 public class App 
 {
+	private static final Logger LOGGER = LoggerFactory.getLogger(App.class);
     public static void main( String[] args )
     {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter a city name:");
-        String city = scanner.nextLine();
+    	LOGGER.info("Application started.");
+    	try (Scanner scanner = new Scanner(System.in)) {
+    		System.out.println("Enter a city name:");
+            String city = scanner.nextLine();
 
-        WeatherService weatherService = new WeatherService();
-        String weather = weatherService.getWeather(city);
-        System.out.println("Current weather in " + city + ": ");
-        System.out.println(weather);
+            WeatherService weatherService = new WeatherService();
+            try {
+                String weather = weatherService.getWeather(city);
+                System.out.println("Current weather in " + city + " is: " + weather);
+            } catch (Exception e) {
+                System.out.println("Error retrieving weather data.");
+            }
+    	}
+        
     }
 }
