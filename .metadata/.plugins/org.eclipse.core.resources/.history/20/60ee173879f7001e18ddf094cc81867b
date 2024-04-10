@@ -1,0 +1,9 @@
+package com.carol.weather_app;
+
+public class Weather {
+    private String main;
+    private double temperature;
+
+    // 构造函数、getter和setter省略
+}
+

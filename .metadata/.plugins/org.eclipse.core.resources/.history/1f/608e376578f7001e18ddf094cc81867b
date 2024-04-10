@@ -1,0 +1,6 @@
+package com.carol.weather_app;
+import org.json.JSONObject;
+
+public class WeatherParser {
+
+}

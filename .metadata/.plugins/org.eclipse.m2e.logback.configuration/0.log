@@ -1,0 +1,562 @@
+2024-04-10 20:54:03,018 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-04-10 21:07:40,747 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2024-04-10 21:07:40,856 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.pom
+2024-04-10 21:07:40,887 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2024-04-10 21:07:40,986 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-bundles/4/maven-archetype-bundles-4.pom
+2024-04-10 21:07:41,000 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2024-04-10 21:07:41,100 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetype/maven-archetype/2.0-alpha-5/maven-archetype-2.0-alpha-5.pom
+2024-04-10 21:07:41,120 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2024-04-10 21:07:41,148 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/16/maven-parent-16.pom
+2024-04-10 21:07:41,177 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2024-04-10 21:07:41,193 [ModalContext] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/archetypes/maven-archetype-quickstart/1.1/maven-archetype-quickstart-1.1.jar
+2024-04-10 21:13:55,570 [Worker-47: Launching mavenrun-baa10fff-b06e-49f8-b23e-004bfedfe6d7] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI
+2024-04-10 21:13:55,607 [Worker-47: Launching mavenrun-baa10fff-b06e-49f8-b23e-004bfedfe6d7] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DarchetypeVersion=1.1 -Dpackage=com.carol.weather_app -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.carol -DartifactId=weather-app -DoutputDirectory=C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI -Dversion=0.0.1-SNAPSHOT -Dstyle.color=always -U archetype:generate
+2024-04-10 21:17:43,221 [Worker-46: Launching mavenrun-628de0e7-89d8-4aa7-9515-d9faa0a84b9e] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI
+2024-04-10 21:17:43,221 [Worker-46: Launching mavenrun-628de0e7-89d8-4aa7-9515-d9faa0a84b9e] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -DarchetypeVersion=1.1 -Dpackage=com.carol.weather_app -DarchetypeGroupId=org.apache.maven.archetypes -DarchetypeArtifactId=maven-archetype-quickstart -DgroupId=com.carol -DartifactId=weather-app -DoutputDirectory=C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI -Dversion=0.0.1-SNAPSHOT -Dstyle.color=always -U archetype:generate
+2024-04-10 21:18:22,864 [Worker-49: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Collecting project info '/pom.xml' C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml
+2024-04-10 21:18:23,400 [Worker-49: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carol:weather-app:0.0.1-SNAPSHOT @ C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml.
+2024-04-10 21:18:23,694 [Worker-49: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-app/src/main/java
+2024-04-10 21:18:23,700 [Worker-49: Creating maven-archetype-quickstart] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-app/src/test/java
+2024-04-10 21:18:23,801 [Worker-49: Creating maven-archetype-quickstart] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2024-04-10 21:18:24,690 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2024-04-10 21:18:24,712 [Worker-50: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/junit/junit/3.8.1/junit-3.8.1-sources.jar
+2024-04-10 21:18:24,718 [Worker-50: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for junit:junit:3.8.1
+2024-04-10 21:18:25,246 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:25,246 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:18:25,250 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:25,251 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:18:45,556 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:45,556 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:18:45,557 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:45,558 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:18:48,741 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:48,741 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:18:48,742 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:18:48,742 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:19:21,476 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:19:21,476 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:19:21,477 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:19:21,477 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:19:51,051 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:19:51,051 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:19:51,052 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:19:51,053 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:20:11,372 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:11,373 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:20:11,373 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:11,374 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:20:26,934 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:26,934 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:20:26,936 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:26,936 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:20:43,227 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:43,227 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:20:43,228 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:20:43,228 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:08,461 [Worker-53: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carol:weather-app:0.0.1-SNAPSHOT @ C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml.
+2024-04-10 21:23:08,516 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307.pom
+2024-04-10 21:23:08,536 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307.pom
+2024-04-10 21:23:08,555 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307.jar
+2024-04-10 21:23:08,666 [Worker-53: Building] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307.jar
+2024-04-10 21:23:08,738 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:08,738 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:08,739 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:08,739 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:09,783 [Worker-51: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307-sources.jar
+2024-04-10 21:23:09,901 [Worker-51: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/json/json/20210307/json-20210307-sources.jar
+2024-04-10 21:23:09,912 [Worker-51: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.json:json:20210307
+2024-04-10 21:23:10,120 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:10,121 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:10,121 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:10,121 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:33,276 [Worker-47: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carol:weather-app:0.0.1-SNAPSHOT @ C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml.
+2024-04-10 21:23:33,336 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:33,336 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:33,337 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:33,338 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:46,948 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:46,948 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:46,949 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:46,949 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:50,145 [Worker-51: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 21:23:50,145 [Worker-51: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always clean
+2024-04-10 21:23:51,301 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:51,301 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:51,302 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:51,302 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:23:54,044 [Worker-51: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 21:23:54,044 [Worker-51: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2024-04-10 21:23:55,662 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:55,662 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:23:55,664 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:23:55,664 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:24:40,421 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:40,421 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:24:40,421 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:40,421 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:24:47,703 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:47,703 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:24:47,704 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:47,704 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:24:56,258 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:56,258 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:24:56,259 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:24:56,259 [Worker-47: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:26:25,997 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:26:25,998 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:26:25,999 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:26:25,999 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:28:28,401 [Worker-57: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carol:weather-app:0.0.1-SNAPSHOT @ C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml.
+2024-04-10 21:28:28,449 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:28,449 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:28:28,451 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:28,451 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:28:34,306 [Worker-46: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 21:28:34,306 [Worker-46: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always clean
+2024-04-10 21:28:35,484 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:35,484 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:28:35,485 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:35,485 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:28:37,952 [Worker-51: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 21:28:37,953 [Worker-51: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2024-04-10 21:28:39,833 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:39,833 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:28:39,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:28:39,834 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:29:13,125 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:29:13,125 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:29:13,126 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:29:13,126 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:29:16,539 [Worker-46: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 21:29:16,539 [Worker-46: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2024-04-10 21:29:20,053 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:29:20,053 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:29:20,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:29:20,054 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:30:06,084 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:06,084 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:30:06,086 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:06,086 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:30:10,401 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:10,401 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:30:10,402 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:10,402 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:30:50,050 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:50,050 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:30:50,052 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:30:50,052 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:31:20,016 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:31:20,016 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:31:20,018 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:31:20,018 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:31:46,317 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:31:46,317 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:31:46,318 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:31:46,318 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:32:40,543 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:32:40,543 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:32:40,544 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:32:40,544 [Worker-59: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:33:03,542 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:33:03,542 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:33:03,543 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:33:03,543 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:33:56,417 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:33:56,417 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:33:56,417 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:33:56,417 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:34:05,096 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:34:05,096 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:34:05,098 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:34:05,099 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:35:19,621 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:35:19,621 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:35:19,622 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:35:19,622 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:35:41,850 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:35:41,851 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:35:41,852 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:35:41,852 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:36:03,665 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:03,666 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:36:03,666 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:03,666 [Worker-58: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:36:22,725 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:22,725 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:36:22,727 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:22,727 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:36:45,294 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:45,294 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:36:45,295 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:36:45,296 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:41:14,859 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:41:14,861 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:41:14,861 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:41:14,862 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:41:29,414 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:41:29,415 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:41:29,416 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:41:29,416 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:42:05,750 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:42:05,750 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:42:05,751 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:42:05,751 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:44:32,572 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:44:32,572 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:44:32,573 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:44:32,573 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:46:30,071 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:30,072 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:46:30,072 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:30,073 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:46:39,058 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:39,058 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:46:39,059 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:39,060 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:46:50,739 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:50,739 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:46:50,739 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:46:50,739 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:47:13,707 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:13,707 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:47:13,708 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:13,708 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:47:22,981 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:22,981 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:47:22,982 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:22,982 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:47:30,293 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:30,293 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:47:30,294 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:30,294 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:47:39,719 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:39,720 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:47:39,720 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:39,720 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:47:59,909 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:59,909 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:47:59,910 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:47:59,910 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:48:02,894 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:02,894 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:48:02,895 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:02,895 [Worker-63: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:48:22,897 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:22,897 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:48:22,898 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:22,898 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:48:25,734 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:25,734 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:48:25,735 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:48:25,735 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:51:18,390 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:51:18,390 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:51:18,391 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:51:18,391 [Worker-62: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:52:56,718 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:52:56,719 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:52:56,720 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:52:56,720 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:53:16,650 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:53:16,650 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:53:16,651 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:53:16,651 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:54:28,604 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:54:28,604 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:54:28,606 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:54:28,606 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 21:55:10,066 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:55:10,067 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 21:55:10,067 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 21:55:10,067 [Worker-61: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:01:46,802 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:01:46,804 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:01:46,804 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:01:46,804 [Worker-64: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:02:21,614 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:21,614 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:02:21,614 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:21,614 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:02:27,213 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:27,213 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:02:27,214 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:27,214 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:02:39,881 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:39,882 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:02:39,882 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:02:39,882 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:03:05,073 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:05,073 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:03:05,073 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:05,074 [Worker-66: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:03:24,518 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2024-04-10 22:03:24,711 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.carol:weather-app:0.0.1-SNAPSHOT @ C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\pom.xml.
+2024-04-10 22:03:24,788 [Worker-66: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-app/src/main/java
+2024-04-10 22:03:24,788 [Worker-66: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /weather-app/src/test/java
+2024-04-10 22:03:24,893 [Worker-66: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2024-04-10 22:03:25,022 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:25,022 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:03:25,023 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:25,023 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:03:59,917 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:59,917 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:03:59,918 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:03:59,918 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:04:06,851 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:06,852 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:04:06,852 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:06,852 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:04:23,104 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:23,104 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:04:23,104 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:23,104 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:04:28,983 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:28,983 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:04:28,984 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:28,984 [Worker-71: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:04:40,858 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:40,858 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:04:40,859 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:04:40,859 [Worker-67: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:13:22,144 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:13:22,145 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:13:22,145 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:13:22,146 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:13:26,990 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:13:26,990 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:13:26,991 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:13:26,991 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:18:09,273 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:18:09,273 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:18:09,274 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:18:09,274 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:32:52,679 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:32:52,679 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:32:52,679 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:32:52,680 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:32:56,841 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:32:56,841 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:32:56,842 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:32:56,842 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:33:27,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:33:27,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:33:27,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:33:27,089 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:35:01,872 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:01,872 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:35:01,873 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:01,873 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:35:10,749 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:10,749 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:35:10,749 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:10,749 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:35:37,408 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:37,408 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:35:37,409 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:35:37,409 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:49:39,349 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:49:39,349 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:49:39,351 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:49:39,351 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:49:52,454 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:49:52,454 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:49:52,454 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:49:52,455 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:50:42,196 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:50:42,196 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:50:42,198 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:50:42,198 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:51:07,520 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:07,520 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:51:07,521 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:07,521 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:51:12,475 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:12,475 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:51:12,476 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:12,476 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:51:44,682 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:44,682 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:51:44,683 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:51:44,683 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:52:00,780 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:00,780 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:52:00,780 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:00,780 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:52:33,149 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:33,149 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:52:33,149 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:33,149 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:52:49,342 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:49,342 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:52:49,343 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:49,343 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:52:53,146 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:53,146 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:52:53,146 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:52:53,146 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:07,116 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:07,118 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:07,118 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:07,118 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:22,083 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:22,083 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:22,083 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:22,084 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:26,259 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:26,259 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:26,259 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:26,259 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:40,382 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:40,382 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:40,383 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:40,383 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:47,399 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:47,399 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:47,400 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:47,400 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:53:57,674 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:57,674 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:53:57,676 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:53:57,676 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:54:24,819 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:54:24,819 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:54:24,820 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:54:24,820 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:54:34,731 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:54:34,731 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:54:34,732 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:54:34,732 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:55:25,533 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:25,533 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:55:25,534 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:25,534 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:55:32,208 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:32,208 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:55:32,209 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:32,209 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:55:35,943 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:35,943 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:55:35,943 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:55:35,943 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:56:05,271 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:56:05,271 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:56:05,272 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:56:05,272 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:57:09,372 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:09,372 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:57:09,373 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:09,373 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:57:28,062 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:28,062 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:57:28,063 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:28,063 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:57:36,436 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:36,436 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:57:36,437 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:57:36,437 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:58:17,484 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:58:17,485 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:58:17,486 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:58:17,486 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 22:58:25,653 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:58:25,653 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 22:58:25,654 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 22:58:25,654 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:01:53,692 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:01:53,692 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:01:53,693 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:01:53,693 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:09:19,365 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:09:19,366 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:09:19,367 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:09:19,367 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:09:57,939 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:09:57,939 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:09:57,940 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:09:57,940 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:10:48,925 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:10:48,925 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:10:48,925 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:10:48,925 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:11:03,526 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:03,526 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:11:03,528 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:03,528 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:11:36,649 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:36,649 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:11:36,649 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:36,649 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:11:50,343 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:50,344 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:11:50,344 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:11:50,344 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:12:49,392 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:49,392 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:12:49,393 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:49,393 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:12:52,679 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:52,679 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:12:52,680 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:52,680 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:12:58,332 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:58,332 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:12:58,333 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:12:58,333 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:13:38,715 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:13:38,716 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:13:38,716 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:13:38,716 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:13:50,385 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:13:50,385 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:13:50,386 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:13:50,386 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:17:17,197 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:17:17,197 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:17:17,198 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:17:17,198 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:17:20,979 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:17:20,979 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:17:20,980 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:17:20,980 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:18:03,012 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:18:03,012 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:18:03,012 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:18:03,012 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:18:21,213 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:18:21,213 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:18:21,214 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:18:21,214 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:19:07,892 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:07,893 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:19:07,893 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:07,893 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:19:11,658 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:11,658 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:19:11,658 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:11,658 [Worker-86: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:19:29,050 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:29,051 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:19:29,051 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:29,051 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:19:32,617 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:32,617 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:19:32,618 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:32,618 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:19:54,386 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:54,386 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:19:54,387 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:19:54,387 [Worker-84: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:20:15,966 [Worker-81: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 23:20:15,966 [Worker-81: Launching Executing clean in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always clean
+2024-04-10 23:20:17,485 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:20:17,485 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:20:17,486 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:20:17,486 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:20:21,639 [Worker-80: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app
+2024-04-10 23:20:21,639 [Worker-80: Launching Executing install in C__CarrotFiles_tools_CarrotGitHub_OpenWeatherMapAPI_weather-app] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B -Dstyle.color=always install
+2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\main\resources
+2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-04-10 23:20:24,699 [Worker-87: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\CarrotFiles\tools\CarrotGitHub\OpenWeatherMapAPI\weather-app\src\test\resources
+2024-04-10 23:20:29,539 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2024-04-10 23:20:37,400 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration

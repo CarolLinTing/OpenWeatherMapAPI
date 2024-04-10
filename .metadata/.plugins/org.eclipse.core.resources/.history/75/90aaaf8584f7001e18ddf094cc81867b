@@ -1,0 +1,54 @@
+package com.carol.weather_app;
+import java.net.URI;
+import java.net.http.HttpClient;
+import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
+import java.net.URLEncoder;
+import java.nio.charset.StandardCharsets;
+
+public class WeatherService {
+    private final String apiKey = "c587c657c720e5731e8b7c27eab930cb";
+
+    //public String getWeather(String city) {
+    public void getWeather(String city) {
+        HttpClient client = HttpClient.newHttpClient();
+        
+        //Geocoding API from https://openweathermap.org/api/geocoding-api
+        String geoURL = "http://api.openweathermap.org/geo/1.0/direct?q="+ city +
+        		"&limit=1&appid="+ apiKey;
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(geoURL))
+                .build();
+        try {
+            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            
+            //Latitude, Longitude of city
+            double lat = new GeoParser().JSONGeoParser(response.body()).getLat();
+            double lon = new GeoParser().JSONGeoParser(response.body()).getLon();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.out.println("Unable to retrieve weather data");
+        }
+        /*
+        String endpoint = "http://api.openweathermap.org/data/2.5/weather?q=" +
+                URLEncoder.encode(city, StandardCharsets.UTF_8) +
+                "&appid=" + apiKey + "&units=metric";
+                
+        String endpoint = "https://api.openweathermap.org/data/3.0/onecall?lat="+{lat}+
+        		"&lon="+ {lon} + "&exclude=" + {part} + "&appid=" + apiKey;
+
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(endpoint))
+                .build();
+
+        try {
+            HttpResponse<String> response = client.send(request, HttpResponse.BodyHandlers.ofString());
+            
+            return response.body();//JSON body
+        } catch (Exception e) {
+            e.printStackTrace();
+            return "Unable to retrieve weather data";
+        }
+        */
+    }
+}

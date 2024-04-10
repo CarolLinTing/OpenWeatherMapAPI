@@ -1,0 +1,38 @@
+package com.carol.weather_app;
+import org.json.JSONObject;
+
+public class WeatherParser {
+	public Weather JSONDataParser(String json) {
+	    //String jsonData = "{\"coord\":{\"lon\":121.5319,\"lat\":25.0478},\"weather\":[{\"id\":803,\"main\":\"Clouds\",\"description\":\"broken clouds\",\"icon\":\"04n\"}],\"base\":\"stations\",\"main\":{\"temp\":21.99,\"feels_like\":21.84,\"temp_min\":19.07,\"temp_max\":23.93,\"pressure\":1012,\"humidity\":61},\"visibility\":10000,\"wind\":{\"speed\":1.79,\"deg\":140,\"gust\":3.13},\"clouds\":{\"all\":75},\"dt\":1712780451,\"sys\":{\"type\":2,\"id\":266033,\"country\":\"TW\",\"sunrise\":1712784914,\"sunset\":1712830449},\"timezone\":28800,\"id\":1668341,\"name\":\"Taipei\",\"cod\":200}";
+		String jsonData = json;
+		Weather weatherInfo = new Weather();
+		
+	    JSONObject obj = new JSONObject(jsonData);
+	    
+        // 将字符串转换为JSON对象
+        JSONObject jsonObj = new JSONObject(jsonStr);
+
+        // 获取当前天气对象
+        JSONObject currentWeather = jsonObj.getJSONObject("current");
+
+        // 获取温度，注意温度值是以开尔文为单位的
+        double tempK = currentWeather.getDouble("temp");
+        // 将温度转换为摄氏度
+        double tempC = tempK - 273.15;
+
+        // 获取天气数组的第一个元素
+        JSONArray weatherArray = currentWeather.getJSONArray("weather");
+        JSONObject weather = weatherArray.getJSONObject(0);
+        // 获取主要天气情况和详细描述
+        String main = weather.getString("main");
+        String description = weather.getString("description");
+	    
+        weatherInfo(main,description,tempC);
+	    weatherInfo.setMain(weatherMain);
+	    weatherInfo.setDescription(weatherDescription);
+	    weatherInfo.setTemperature(temp);
+	    
+	    return weatherInfo;
+	}
+
+}

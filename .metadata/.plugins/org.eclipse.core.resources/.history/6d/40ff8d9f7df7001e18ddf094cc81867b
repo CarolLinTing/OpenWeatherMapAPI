@@ -1,0 +1,8 @@
+package com.carol.weather_app;
+
+public class LatLonParser {
+	public Weather JSONGeoParser(String json) {
+		String jsonData = json;
+		Weather weatherInfo = new Weather();
+	}
+}
